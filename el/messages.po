@@ -1477,7 +1477,7 @@ msgstr "Άρθρα από <0/>"
 msgid "At least you tried"
 msgstr "Τουλάχιστον προσπάθησες"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:486
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Στο τέλος του χρονοδιακόπτη <0>{actualTickPoints}</0> θα αποδοθούν στην πλευρά με τις περισσότερες ζημιές."
 
@@ -1696,11 +1696,11 @@ msgstr "Ενίσχυσε την παραγωγή σου!"
 msgid "Boots"
 msgstr "Μπότες"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:696
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -2011,7 +2011,7 @@ msgstr "Υπηκοότητα"
 msgid "Citizenship Applications"
 msgstr "Αιτήσεις Υπηκοότητας"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "Εμφύλιος πόλεμος"
 
@@ -2494,11 +2494,11 @@ msgstr "Τρέχουσα Στρατιωτική Μονάδα"
 msgid "Current round only"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:505
 msgid "Current tick:"
 msgstr "Τρέχον tick:"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:495
 msgid "Current total:"
 msgstr "Τρέχον σύνολο:"
 
@@ -3009,7 +3009,7 @@ msgstr "Κόστος θέσπισης"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:614
 msgid "Ended"
 msgstr "Τέλειωσε"
 
@@ -3476,7 +3476,7 @@ msgstr "Κυβέρνηση"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:676
 msgid "Government penalty"
 msgstr ""
 
@@ -3508,7 +3508,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Έδαφος"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:544
 msgid "ground per tick"
 msgstr "έδαφος ανά tick"
 
@@ -3575,7 +3575,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Χτύπησε <0>{count}</0> φορές σε μάχες"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:678
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -4525,6 +4525,10 @@ msgstr "Mythic?! Ο λογαριασμός σου είναι ευλογημέν�
 msgid "Name"
 msgstr "Όνομα"
 
+#: src/components/_military/battle/BattleSystem.tsx:664
+msgid "National bounty"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Χρειάζεσαι δουλειά;"
@@ -4665,7 +4669,7 @@ msgstr "Το επόμενο θα είναι άρμα μάχης"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:481
 msgid "Next tick"
 msgstr "Επόμενο tick"
 
@@ -6684,6 +6688,10 @@ msgstr "Το τουρνουά τέλειωσε για την ομάδα σου <
 msgid "The universe owes you something big"
 msgstr "Το σύμπαν σου χρωστά κάτι μεγάλο"
 
+#: src/components/_military/battle/BattleSystem.tsx:666
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Αυτή η εταιρεία είναι απενεργοποιημένη γιατί ο ιδιοκτήτης έφτασε το όριο εταιρειών."
@@ -6877,7 +6885,7 @@ msgstr "Κορυφαίοι δωροδότες του μήνα"
 msgid "Top of the hill"
 msgstr "Κορυφή του λόφου"
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "total"
 msgstr "σύνολο"
 

@@ -1477,7 +1477,7 @@ msgstr "Статьи от <0/>"
 msgid "At least you tried"
 msgstr "Ты хотя бы попытался"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:486
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "По истечении таймера <0>{actualTickPoints}</0> будут зачислены стороне с наибольшим уроном."
 
@@ -1696,11 +1696,11 @@ msgstr "Увеличьте своё производство!"
 msgid "Boots"
 msgstr "Берцы"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:696
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -2011,7 +2011,7 @@ msgstr "Гражданство"
 msgid "Citizenship Applications"
 msgstr "Запросы гражданства"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "Гражданская война"
 
@@ -2494,11 +2494,11 @@ msgstr "Текущий Военный Отряд"
 msgid "Current round only"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:505
 msgid "Current tick:"
 msgstr "Текущий тик:"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:495
 msgid "Current total:"
 msgstr "Текущее кол-во:"
 
@@ -3009,7 +3009,7 @@ msgstr "Затраты на принятие"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:614
 msgid "Ended"
 msgstr "Завершена"
 
@@ -3476,7 +3476,7 @@ msgstr "Правительство"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:676
 msgid "Government penalty"
 msgstr ""
 
@@ -3508,7 +3508,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Высоты"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:544
 msgid "ground per tick"
 msgstr "высот за тик"
 
@@ -3575,7 +3575,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Ударь <0>{count}</0> раз в битвах"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:678
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -4525,6 +4525,10 @@ msgstr "Мифик?! Твой аккаунт благословлён"
 msgid "Name"
 msgstr "Название"
 
+#: src/components/_military/battle/BattleSystem.tsx:664
+msgid "National bounty"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Нужна работа?"
@@ -4665,7 +4669,7 @@ msgstr "Следующим будет танк"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:481
 msgid "Next tick"
 msgstr "Следующий тик"
 
@@ -6684,6 +6688,10 @@ msgstr "Турнир завершён для Вашей команды <0/>. П�
 msgid "The universe owes you something big"
 msgstr "Вселенная тебе крупно задолжала"
 
+#: src/components/_military/battle/BattleSystem.tsx:666
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Компания выключена, из-за достижения владельцем лимита компаний."
@@ -6877,7 +6885,7 @@ msgstr "Топ меценатов месяца"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "total"
 msgstr "всего"
 

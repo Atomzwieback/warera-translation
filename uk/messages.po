@@ -1477,7 +1477,7 @@ msgstr "Статті <0/>"
 msgid "At least you tried"
 msgstr "Ну, ти спробував"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:486
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Коли таймер дійде нуля, <0>{actualTickPoints}</0> буде присвоєно стороні з більшою шкодою."
 
@@ -1696,11 +1696,11 @@ msgstr "Збільште продуктивність!"
 msgid "Boots"
 msgstr "Чоботи"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "Bounty cooldown"
 msgstr "Затримка винагороди"
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:696
 msgid "Bounty will be available at the end of the timer."
 msgstr "Винагорода буде доступна, коли цей таймер спливе."
 
@@ -2011,7 +2011,7 @@ msgstr "Громадянство"
 msgid "Citizenship Applications"
 msgstr "Заявки на громадянство"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "Громадянська війна"
 
@@ -2494,11 +2494,11 @@ msgstr "Поточний військовий підрозділ"
 msgid "Current round only"
 msgstr "Лише поточний раунд"
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:505
 msgid "Current tick:"
 msgstr "Поточний такт:"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:495
 msgid "Current total:"
 msgstr "Поточна сума:"
 
@@ -3009,7 +3009,7 @@ msgstr "Вартість ухвалення"
 msgid "Enchanted Trousers"
 msgstr "Зачаровані штани"
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:614
 msgid "Ended"
 msgstr "Завершено"
 
@@ -3476,7 +3476,7 @@ msgstr "Уряд"
 msgid "Government Member"
 msgstr "Урядовець"
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:676
 msgid "Government penalty"
 msgstr "Урядовий штраф"
 
@@ -3508,7 +3508,7 @@ msgstr "Зелений посох"
 msgid "Ground"
 msgstr "Бали контролю"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:544
 msgid "ground per tick"
 msgstr "контролю за такт"
 
@@ -3575,7 +3575,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Завдайте <0>{count}</0> ударів у боях"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:678
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -4525,6 +4525,10 @@ msgstr "Міфік?! Твій акаунт просочений потужніс
 msgid "Name"
 msgstr "Назва"
 
+#: src/components/_military/battle/BattleSystem.tsx:664
+msgid "National bounty"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Потрібна робота?"
@@ -4665,7 +4669,7 @@ msgstr "Наступного разу ТОЧНО буде танк..."
 msgid "Next reward"
 msgstr "Наступна нагорода"
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:481
 msgid "Next tick"
 msgstr "Наступний такт"
 
@@ -6684,6 +6688,10 @@ msgstr "Турнір закінчився для вашої команди <0/>.
 msgid "The universe owes you something big"
 msgstr "Всесвіт має на вас великі плани"
 
+#: src/components/_military/battle/BattleSystem.tsx:666
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Фабрику вашого роботодавця було зупинено через перевищення ним ліміту."
@@ -6877,7 +6885,7 @@ msgstr "Найбільші дарувальники цього місяця"
 msgid "Top of the hill"
 msgstr "Король гори"
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "total"
 msgstr "всього"
 

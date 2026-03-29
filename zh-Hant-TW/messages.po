@@ -1477,7 +1477,7 @@ msgstr "<0/> 的文章"
 msgid "At least you tried"
 msgstr "至少你試過了"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:486
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
@@ -1696,11 +1696,11 @@ msgstr "增加你的產量！"
 msgid "Boots"
 msgstr "靴子"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:696
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -2011,7 +2011,7 @@ msgstr "公民身分"
 msgid "Citizenship Applications"
 msgstr "公民身分申請"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "內戰"
 
@@ -2494,11 +2494,11 @@ msgstr "目前所處的軍團"
 msgid "Current round only"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:505
 msgid "Current tick:"
 msgstr "目前刻："
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:495
 msgid "Current total:"
 msgstr "目前總共："
 
@@ -3009,7 +3009,7 @@ msgstr "施行費用"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:614
 msgid "Ended"
 msgstr "已結束"
 
@@ -3476,7 +3476,7 @@ msgstr "政府"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:676
 msgid "Government penalty"
 msgstr ""
 
@@ -3508,7 +3508,7 @@ msgstr ""
 msgid "Ground"
 msgstr "優勢點"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:544
 msgid "ground per tick"
 msgstr "每刻優勢點"
 
@@ -3575,7 +3575,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "在戰鬥中攻擊 <0>{count}</0> 次"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:678
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -4525,6 +4525,10 @@ msgstr "神話裝備？！你的帳號一定有被保佑"
 msgid "Name"
 msgstr "名稱"
 
+#: src/components/_military/battle/BattleSystem.tsx:664
+msgid "National bounty"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "需要一個工作？"
@@ -4665,7 +4669,7 @@ msgstr "下個將會是坦克"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:481
 msgid "Next tick"
 msgstr "下刻"
 
@@ -6684,6 +6688,10 @@ msgstr "你的隊伍 <0/> 參與的錦標賽已結束，點擊查看比賽結果
 msgid "The universe owes you something big"
 msgstr "這個宇宙欠了你一份大人情"
 
+#: src/components/_military/battle/BattleSystem.tsx:666
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "該公司已強制停用，因為已超過其雇主可開設的公司上限。"
@@ -6877,7 +6885,7 @@ msgstr "本月送禮數最多者"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "total"
 msgstr "總共"
 

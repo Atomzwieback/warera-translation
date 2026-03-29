@@ -1477,7 +1477,7 @@ msgstr "Articles de <0/>"
 msgid "At least you tried"
 msgstr "Au moins t'as essayé"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:486
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "À la fin du timer, <0>{actualTickPoints}</0> seront attribués au camp avec le plus de dégâts."
 
@@ -1696,11 +1696,11 @@ msgstr "Améliore ta production !"
 msgid "Boots"
 msgstr "Bottes"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:696
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -2011,7 +2011,7 @@ msgstr "Citoyenneté"
 msgid "Citizenship Applications"
 msgstr "Demandes de citoyenneté"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "Guerre civile"
 
@@ -2494,11 +2494,11 @@ msgstr "Unité militaire actuelle"
 msgid "Current round only"
 msgstr "Manche actuelle uniquement"
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:505
 msgid "Current tick:"
 msgstr "Tick actuel :"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:495
 msgid "Current total:"
 msgstr "Total actuel :"
 
@@ -3009,7 +3009,7 @@ msgstr "Coût de promulgation"
 msgid "Enchanted Trousers"
 msgstr "Pantalon enchanté"
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:614
 msgid "Ended"
 msgstr "Terminée"
 
@@ -3476,7 +3476,7 @@ msgstr "Gouvernement"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:676
 msgid "Government penalty"
 msgstr ""
 
@@ -3508,7 +3508,7 @@ msgstr "Bâton vert"
 msgid "Ground"
 msgstr "Terrain"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:544
 msgid "ground per tick"
 msgstr "terrain par tick"
 
@@ -3575,7 +3575,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Frappe <0>{count}</0> fois en batailles"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:678
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -4525,6 +4525,10 @@ msgstr "Mythique ?! Ton compte est béni"
 msgid "Name"
 msgstr "Nom"
 
+#: src/components/_military/battle/BattleSystem.tsx:664
+msgid "National bounty"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Besoin d'un emploi ?"
@@ -4665,7 +4669,7 @@ msgstr "La prochaine sera un tank"
 msgid "Next reward"
 msgstr "Prochaine récompense"
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:481
 msgid "Next tick"
 msgstr "Prochain tick"
 
@@ -6684,6 +6688,10 @@ msgstr "Le tournoi est terminé pour ton équipe <0/>. Consulte les résultats !
 msgid "The universe owes you something big"
 msgstr "L'univers te doit quelque chose de gros"
 
+#: src/components/_military/battle/BattleSystem.tsx:666
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Cette entreprise est désactivée car le propriétaire a atteint la limite d'entreprises."
@@ -6877,7 +6885,7 @@ msgstr "Top des généreux du mois"
 msgid "Top of the hill"
 msgstr "Sommet de la hiérarchie"
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "total"
 msgstr "total"
 

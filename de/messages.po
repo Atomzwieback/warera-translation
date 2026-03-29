@@ -1477,7 +1477,7 @@ msgstr "Artikel von <0/>"
 msgid "At least you tried"
 msgstr "Du hast es zumindest versucht"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:486
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Am Ende des Timers werden <0>{actualTickPoints}</0> der Seite mit dem meisten Schaden zugewiesen."
 
@@ -1696,11 +1696,11 @@ msgstr "Kurbele deine Produktion an!"
 msgid "Boots"
 msgstr "Stiefel"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "Bounty cooldown"
 msgstr "Kopfgeld-Abklingzeit"
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:696
 msgid "Bounty will be available at the end of the timer."
 msgstr "Das Kopfgeld wird nach Ablauf des Timers verfügbar sein."
 
@@ -2011,7 +2011,7 @@ msgstr "Staatsbürgerschaft"
 msgid "Citizenship Applications"
 msgstr "Staatsbürgerschaftsanträge"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "Bürgerkrieg"
 
@@ -2494,11 +2494,11 @@ msgstr "Aktuelle Militäreinheit"
 msgid "Current round only"
 msgstr "Nur aktuelle Runde"
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:505
 msgid "Current tick:"
 msgstr "Aktueller Tick:"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:495
 msgid "Current total:"
 msgstr "Aktuelle Gesamtsumme:"
 
@@ -3009,7 +3009,7 @@ msgstr "Kosten für Verabschiedung"
 msgid "Enchanted Trousers"
 msgstr "Verzauberte Hose"
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:614
 msgid "Ended"
 msgstr "Beendet"
 
@@ -3476,7 +3476,7 @@ msgstr "Regierung"
 msgid "Government Member"
 msgstr "Regierungsmitglied"
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:676
 msgid "Government penalty"
 msgstr "Regierungsstrafe"
 
@@ -3508,7 +3508,7 @@ msgstr "Grüner Stab"
 msgid "Ground"
 msgstr "Boden"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:544
 msgid "ground per tick"
 msgstr "Boden pro Tick"
 
@@ -3575,7 +3575,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Triff <0>{count}</0> Mal in Schlachten"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:678
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Das Kämpfen für das eigene Land, während man in der Regierung ist, gibt {0}% Kopfgeld-Effizienz."
 
@@ -4525,6 +4525,10 @@ msgstr "Mythisch?! Dein Konto ist gesegnet"
 msgid "Name"
 msgstr "Name"
 
+#: src/components/_military/battle/BattleSystem.tsx:664
+msgid "National bounty"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Brauchst du einen Job?"
@@ -4665,7 +4669,7 @@ msgstr "Die nächste wird bestimmt ein Panzer sein"
 msgid "Next reward"
 msgstr "Nächste Belohnung"
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:481
 msgid "Next tick"
 msgstr "Nächster Tick"
 
@@ -6684,6 +6688,10 @@ msgstr "Das Turnier für dein Team <0/> ist beendet. Überprüfe die Ergebnisse!
 msgid "The universe owes you something big"
 msgstr "Das Universum schuldet dir etwas Großes"
 
+#: src/components/_military/battle/BattleSystem.tsx:666
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Dieses Unternehmen ist deaktiviert, da der Besitzer das Unternehmenslimit erreicht hat."
@@ -6877,7 +6885,7 @@ msgstr "Top-Schenker des Monats"
 msgid "Top of the hill"
 msgstr "Gipfelstürmer"
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "total"
 msgstr "Gesamt"
 

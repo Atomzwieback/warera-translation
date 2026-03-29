@@ -1477,7 +1477,7 @@ msgstr "Чланци од <0/>"
 msgid "At least you tried"
 msgstr "Барем си покушао"
 
-#: src/components/_military/battle/BattleSystem.tsx:485
+#: src/components/_military/battle/BattleSystem.tsx:486
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "По истеку тајмера, <0>{actualTickPoints}</0> ће бити додељено страни са највише нанесене штете."
 
@@ -1696,11 +1696,11 @@ msgstr "Пожачај своју производњу!"
 msgid "Boots"
 msgstr "Чизме"
 
-#: src/components/_military/battle/BattleSystem.tsx:667
+#: src/components/_military/battle/BattleSystem.tsx:695
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:668
+#: src/components/_military/battle/BattleSystem.tsx:696
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -2011,7 +2011,7 @@ msgstr "Држављанство"
 msgid "Citizenship Applications"
 msgstr "Пријаве за држављанство"
 
-#: src/components/_military/battle/BattleSystem.tsx:249
+#: src/components/_military/battle/BattleSystem.tsx:250
 msgid "Civil war"
 msgstr "Цивилни рат"
 
@@ -2494,11 +2494,11 @@ msgstr "Тренутна војна јединица"
 msgid "Current round only"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:504
+#: src/components/_military/battle/BattleSystem.tsx:505
 msgid "Current tick:"
 msgstr "Тренутни тик:"
 
-#: src/components/_military/battle/BattleSystem.tsx:494
+#: src/components/_military/battle/BattleSystem.tsx:495
 msgid "Current total:"
 msgstr "Укупно тренутно:"
 
@@ -3009,7 +3009,7 @@ msgstr "Цена усвајања"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:613
+#: src/components/_military/battle/BattleSystem.tsx:614
 msgid "Ended"
 msgstr "Завршено"
 
@@ -3476,7 +3476,7 @@ msgstr "Влада"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:648
+#: src/components/_military/battle/BattleSystem.tsx:676
 msgid "Government penalty"
 msgstr ""
 
@@ -3508,7 +3508,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Земља"
 
-#: src/components/_military/battle/BattleSystem.tsx:543
+#: src/components/_military/battle/BattleSystem.tsx:544
 msgid "ground per tick"
 msgstr "земље по тику"
 
@@ -3575,7 +3575,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Удари <0>{count}</0> пута у биткама"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:650
+#: src/components/_military/battle/BattleSystem.tsx:678
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -4525,6 +4525,10 @@ msgstr "Епски?! Твој налог је благословен"
 msgid "Name"
 msgstr "Име"
 
+#: src/components/_military/battle/BattleSystem.tsx:664
+msgid "National bounty"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Треба ти посао?"
@@ -4665,7 +4669,7 @@ msgstr "Следећи ће бити тенк"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:480
+#: src/components/_military/battle/BattleSystem.tsx:481
 msgid "Next tick"
 msgstr "Следећи тик"
 
@@ -6684,6 +6688,10 @@ msgstr "Турнир је завршен за твој тим <0/>. Провер
 msgid "The universe owes you something big"
 msgstr "Универзум ти дугује нешто велико"
 
+#: src/components/_military/battle/BattleSystem.tsx:666
+msgid "This bounty is reserved for nationals only."
+msgstr ""
+
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Ова компанија је онемогућена јер је власник достигао ограничење броја компанија."
@@ -6877,7 +6885,7 @@ msgstr "Највећи дародавци месеца"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:534
+#: src/components/_military/battle/BattleSystem.tsx:535
 msgid "total"
 msgstr "укупно"
 
