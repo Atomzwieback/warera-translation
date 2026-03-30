@@ -1906,8 +1906,8 @@ msgid "Catapult"
 msgstr "منجنيق"
 
 #: src/components/_user/user/skills.frontConfig.tsx:152
-msgid "Chance per hit to instantly loot:<0/><1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
-msgstr "فرصة الحصول على غنائم فورية عند كل ضربة: <0/><1>1%</1> يمنح <2>1%</2> و <3>0.01%</3> لفرصة نهب الصناديق عند كل ضربة."
+msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
+msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:138
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."

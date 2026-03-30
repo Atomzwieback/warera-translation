@@ -1904,7 +1904,7 @@ msgid "Catapult"
 msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:152
-msgid "Chance per hit to instantly loot:<0/><1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
+msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
 msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:138
