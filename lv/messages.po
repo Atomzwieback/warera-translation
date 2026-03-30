@@ -75,7 +75,7 @@ msgid "{0} proposed a law, check it out!"
 msgstr "{0} ierosināja likumu, apskaties!"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
-#: src/components/_military/battle/RoundScore.tsx:54
+#: src/components/_military/battle/RoundScore.tsx:55
 msgid "{0} rounds are needed to win the battle."
 msgstr "Vajag {0} raundus, lai uzvarētu kaujā."
 
@@ -134,7 +134,7 @@ msgid "{roundsToWin} Rounds to win"
 msgstr "{roundsToWin} Raundi līdz uzvarai"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
-#: src/components/_military/battle/RoundScore.tsx:49
+#: src/components/_military/battle/RoundScore.tsx:50
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Raundi"
 
@@ -146,7 +146,7 @@ msgstr "*Ja lietotājam jau ir dažas lietas no komplekta, cena būs mazāka"
 msgid "*May burn"
 msgstr "*Var aizdegties"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:197
 msgid "/day"
 msgstr ""
 
@@ -464,6 +464,11 @@ msgstr "<0/>Prioritāte beigsies pēc <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Pretestības pieaugums stundā"
 
+#. placeholder {0}: roundId ? 'Round' : 'Battle'
+#: src/components/_military/damageRanking/BattleLoot.tsx:59
+msgid "<0>{0} {roundNumber} loot pool</0>"
+msgstr ""
+
 #. placeholder {0}: companiesIds?.length ?? 0
 #. placeholder {1}: companiesLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:101
@@ -631,6 +636,16 @@ msgstr "<0>Paģiras</0> beigsies <1/>"
 #: src/components/_user/premium/PremiumFeatureList.tsx:100
 msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotikoni</0> čatā"
+
+#. placeholder {0}: ts.case2
+#: src/components/_military/damageRanking/BattleLoot.tsx:64
+msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
+msgstr ""
+
+#. placeholder {0}: ts.case2
+#: src/components/_military/damageRanking/BattleLoot.tsx:77
+msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
+msgstr ""
 
 #. placeholder {0}: 1
 #. placeholder {1}: worker.fidelity
@@ -1477,11 +1492,11 @@ msgstr "<0/> Raksti"
 msgid "At least you tried"
 msgstr "Vismaz mēģināji"
 
-#: src/components/_military/battle/BattleSystem.tsx:486
+#: src/components/_military/battle/BattleSystem.tsx:490
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Pēc taimera beigām <0>{actualTickPoints}</0> tiks piešķirti pusei ar lielākajiem bojājumiem."
 
-#: src/components/_military/hit/HitButton.tsx:380
+#: src/components/_military/hit/HitButton.tsx:395
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1491,7 +1506,7 @@ msgstr "Uzbrukums"
 msgid "Attacker"
 msgstr "Uzbrucējs"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:182
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:190
 msgid "Attackers"
 msgstr "Uzbrucēji"
 
@@ -1616,8 +1631,8 @@ msgstr "Kauja beidzās"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:54
-msgid "Battle loots"
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
+msgid "Battle loot"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:64
@@ -1696,11 +1711,11 @@ msgstr "Palielini savu ražotspēju!"
 msgid "Boots"
 msgstr "Zābaki"
 
-#: src/components/_military/battle/BattleSystem.tsx:695
+#: src/components/_military/battle/BattleSystem.tsx:699
 msgid "Bounty cooldown"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:696
+#: src/components/_military/battle/BattleSystem.tsx:700
 msgid "Bounty will be available at the end of the timer."
 msgstr ""
 
@@ -2494,11 +2509,11 @@ msgstr "Pašreizējā Militārā Vienība"
 msgid "Current round only"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:505
+#: src/components/_military/battle/BattleSystem.tsx:509
 msgid "Current tick:"
 msgstr "Pašreizējais tikšķis:"
 
-#: src/components/_military/battle/BattleSystem.tsx:495
+#: src/components/_military/battle/BattleSystem.tsx:499
 msgid "Current total:"
 msgstr "Kopā raundā:"
 
@@ -2518,7 +2533,7 @@ msgstr "Ikdienas uzturēšana"
 msgid "Daily Missions Reset"
 msgstr "Jauni Dienas Uzdevumi"
 
-#: src/components/_political/government/Government.tsx:139
+#: src/components/_political/government/Government.tsx:174
 msgid "Daily wage paid from the country treasury."
 msgstr ""
 
@@ -2551,7 +2566,7 @@ msgstr "Bojājumi"
 msgid "Damages for Mu"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:334
+#: src/components/_military/hit/HitButton.tsx:349
 msgid "Damages you did for this side in this round"
 msgstr "Bojājumi raundā, kurus tu nodarīji par šo pusi"
 
@@ -2668,7 +2683,7 @@ msgstr "Samazināt"
 msgid "Decrease unrest"
 msgstr "Samazināt nemierus"
 
-#: src/components/_military/hit/HitButton.tsx:383
+#: src/components/_military/hit/HitButton.tsx:398
 msgid "Defend"
 msgstr "Aizstāvēt"
 
@@ -2676,7 +2691,7 @@ msgstr "Aizstāvēt"
 msgid "Defender"
 msgstr "Aizstāvis"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:179
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:187
 msgid "Defenders"
 msgstr "Aizstāvji"
 
@@ -3009,7 +3024,7 @@ msgstr "Ieviešanas izmaksas"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:614
+#: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Ended"
 msgstr "Beidzās"
 
@@ -3093,11 +3108,6 @@ msgstr "Vērtību Punkti:"
 #: src/pages/country/[countryId]/index.tsx:349
 msgid "Events"
 msgstr "Notikumi"
-
-#. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:58
-msgid "Every <0/> total damage dealt across both sides rolls an <1>{0}</1> into the round loot pool.<2>Additionally, every <3/> total battle damage rolls an item into the battle-wide pool.</2><4>On round end, the loot pools are distributed by overall damage rank: rank 1 receives the most valuable item, rank 2 the next, and so on.</4>"
-msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
 msgid "Everyone participates automatically"
@@ -3291,12 +3301,12 @@ msgstr "Atrast militāro vienību"
 msgid "Find another job"
 msgstr "Atrast citu darbu"
 
-#: src/components/_political/government/Government.tsx:216
+#: src/components/_political/government/Government.tsx:228
 #: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Atlaist"
 
-#: src/components/_political/government/Government.tsx:225
+#: src/components/_political/government/Government.tsx:240
 msgid "Fire government member"
 msgstr "Atlaist valdības locekli"
 
@@ -3476,7 +3486,7 @@ msgstr "Valdība"
 msgid "Government Member"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:676
+#: src/components/_military/battle/BattleSystem.tsx:680
 msgid "Government penalty"
 msgstr ""
 
@@ -3484,7 +3494,7 @@ msgstr ""
 msgid "Government Proposals"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:150
+#: src/components/_political/government/Government.tsx:185
 msgid "Government wage"
 msgstr ""
 
@@ -3508,7 +3518,7 @@ msgstr ""
 msgid "Ground"
 msgstr "Ieņemšanas punkti"
 
-#: src/components/_military/battle/BattleSystem.tsx:544
+#: src/components/_military/battle/BattleSystem.tsx:548
 msgid "ground per tick"
 msgstr "ieņemšanas punkti tikšķī"
 
@@ -3575,7 +3585,7 @@ msgid "Hit <0>{count}</0> times in battles"
 msgstr "Kaujās iesit <0>{count}</0> reizes"
 
 #. placeholder {0}: staticGameConfig.battle.govMemberBountyRewardPercent
-#: src/components/_military/battle/BattleSystem.tsx:678
+#: src/components/_military/battle/BattleSystem.tsx:682
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr ""
 
@@ -3702,7 +3712,7 @@ msgstr "Industriālisms pret Agrārismu"
 msgid "Industrialist"
 msgstr "lndustriālisms"
 
-#: src/components/_political/government/Government.tsx:146
+#: src/components/_political/government/Government.tsx:181
 msgid "Initial development"
 msgstr ""
 
@@ -4080,7 +4090,7 @@ msgstr "Iegūtas kastes"
 msgid "Looted money"
 msgstr "Iegūta nauda"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:112
 msgid "Loots"
 msgstr ""
 
@@ -4317,15 +4327,15 @@ msgstr "Min. aktīvi pilsoņi"
 msgid "Minimum reputation to accept"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:87
+#: src/components/_political/government/Government.tsx:82
 msgid "Minister of Defense"
 msgstr "Aizsardzības Ministrs"
 
-#: src/components/_political/government/Government.tsx:95
+#: src/components/_political/government/Government.tsx:91
 msgid "Minister of Economy"
 msgstr "Ekonomikas Ministrs"
 
-#: src/components/_political/government/Government.tsx:103
+#: src/components/_political/government/Government.tsx:100
 msgid "Minister of Foreign Affairs"
 msgstr "Ārlietu Ministrs"
 
@@ -4525,7 +4535,7 @@ msgstr "Sarkanās? Tavs profils ir svētīts"
 msgid "Name"
 msgstr "Nosaukums"
 
-#: src/components/_military/battle/BattleSystem.tsx:664
+#: src/components/_military/battle/BattleSystem.tsx:669
 msgid "National bounty"
 msgstr ""
 
@@ -4652,11 +4662,6 @@ msgstr "Jaunākie"
 msgid "News"
 msgstr "Raksti"
 
-#. placeholder {0}: roundId ? 'round' : 'battle'
-#: src/components/_military/damageRanking/BattleLoot.tsx:77
-msgid "Next {0} case"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:18
 msgid "Next one will be a tank"
 msgstr "Nākošais būs tanks"
@@ -4669,7 +4674,7 @@ msgstr "Nākošais būs tanks"
 msgid "Next reward"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:481
+#: src/components/_military/battle/BattleSystem.tsx:485
 msgid "Next tick"
 msgstr "Nākošais tikšķis"
 
@@ -4781,7 +4786,7 @@ msgstr "Vēl nav priekšlikumu"
 msgid "No offers found"
 msgstr "Nav sludinājumu"
 
-#: src/components/_political/government/Government.tsx:160
+#: src/components/_political/government/Government.tsx:205
 msgid "No one nominated yet"
 msgstr ""
 
@@ -4829,12 +4834,12 @@ msgstr "Nav aktīvu karu"
 msgid "No work offers"
 msgstr "Nav darba piedāvājumu"
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:219
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Nominēt"
 
-#: src/components/_political/government/Government.tsx:237
+#: src/components/_political/government/Government.tsx:257
 msgid "Nominate a {title}"
 msgstr "Nominēt {title}"
 
@@ -4874,7 +4879,7 @@ msgstr "Ziedotāju skaits:"
 msgid "Occupied region"
 msgstr "Okupētais reģions"
 
-#: src/components/_political/government/Government.tsx:144
+#: src/components/_political/government/Government.tsx:179
 msgid "of"
 msgstr ""
 
@@ -5294,7 +5299,7 @@ msgstr "Premium dāvana nosūtīta"
 msgid "Premium has started working"
 msgstr "Premium ir sācis darboties"
 
-#: src/components/_political/government/Government.tsx:71
+#: src/components/_political/government/Government.tsx:64
 msgid "President"
 msgstr "Prezidents"
 
@@ -5784,11 +5789,11 @@ msgstr "Pārsaukt"
 msgid "Rename company"
 msgstr "Pārsaukt uzņēmumu"
 
-#: src/components/_political/government/Government.tsx:209
+#: src/components/_political/government/Government.tsx:219
 msgid "Replace"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:237
+#: src/components/_political/government/Government.tsx:257
 msgid "Replace {title}"
 msgstr ""
 
@@ -5861,7 +5866,7 @@ msgstr "Pāriestatīt Lietotājvārdu"
 msgid "Reshuffle in"
 msgstr "Pārdalīšana pēc"
 
-#: src/components/_military/hit/HitButton.tsx:378
+#: src/components/_military/hit/HitButton.tsx:393
 msgid "Resist"
 msgstr "Pretoties"
 
@@ -5922,7 +5927,7 @@ msgstr ""
 msgid "Rifle"
 msgstr "Automāts"
 
-#: src/components/_political/government/Government.tsx:123
+#: src/components/_political/government/Government.tsx:154
 msgid "Rights"
 msgstr "Tiesības"
 
@@ -5972,6 +5977,10 @@ msgstr "Raunds ir beidzies"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:79
 msgid "Round Hero"
+msgstr ""
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
+msgid "Round loot"
 msgstr ""
 
 #: src/components/_military/battle/BattleTimeline.tsx:57
@@ -6688,7 +6697,7 @@ msgstr "Tavai komandai <0/> šis turnīrs ir beidzies. Vari aplūkot rezultātus
 msgid "The universe owes you something big"
 msgstr "Visums tev ir parādā kaut ko lielu"
 
-#: src/components/_military/battle/BattleSystem.tsx:666
+#: src/components/_military/battle/BattleSystem.tsx:670
 msgid "This bounty is reserved for nationals only."
 msgstr ""
 
@@ -6725,7 +6734,7 @@ msgstr "Šim likumam ir papildu mainīgās izmaksas"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Šī likuma iesniegšanai nepieciešami vismaz {minActiveCitizen} aktīvi pilsoņi (virs 10. līmeņa."
 
-#: src/components/_political/government/Government.tsx:226
+#: src/components/_political/government/Government.tsx:241
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr ""
 
@@ -6885,7 +6894,7 @@ msgstr "Mēneša lielākie dāvinātāji"
 msgid "Top of the hill"
 msgstr ""
 
-#: src/components/_military/battle/BattleSystem.tsx:535
+#: src/components/_military/battle/BattleSystem.tsx:539
 msgid "total"
 msgstr "kopā"
 
@@ -7331,7 +7340,7 @@ msgstr "Pārbaudās CAPTCHA…"
 msgid "Vice Admiral"
 msgstr "Viceadmirālis"
 
-#: src/components/_political/government/Government.tsx:79
+#: src/components/_political/government/Government.tsx:73
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Viceprezidents"
@@ -8007,7 +8016,7 @@ msgstr "Ikdienas uzdevumi ir atjaunoti! Izpildi tos, lai saņemtu atlīdzību."
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "Pieredzes ikdienas limits ir atjaunojies. Tu vari atkal iegūt pieredzi un saņemt dienas atlīdzību!"
 
-#: src/components/_military/hit/HitButton.tsx:333
+#: src/components/_military/hit/HitButton.tsx:348
 msgid "Your damages"
 msgstr "Tavi bojājumi"
 
