@@ -465,7 +465,7 @@ msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Croissance de résistance par heure"
 
 #. placeholder {0}: roundId ? 'Round' : 'Battle'
-#: src/components/_military/damageRanking/BattleLoot.tsx:59
+#: src/components/_military/damageRanking/BattleLoot.tsx:58
 msgid "<0>{0} {roundNumber} loot pool</0>"
 msgstr ""
 
@@ -638,12 +638,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotes</0> dans le chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:64
+#: src/components/_military/damageRanking/BattleLoot.tsx:63
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:77
+#: src/components/_military/damageRanking/BattleLoot.tsx:76
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
@@ -1124,7 +1124,7 @@ msgstr "Accepter de faire la paix avec l'autre pays"
 msgid "Accepted"
 msgstr "Acceptée"
 
-#: src/components/_military/battle/BattleHeader.tsx:95
+#: src/components/_military/battle/BattleHeader.tsx:96
 msgid "Access war"
 msgstr "Accès à la guerre"
 
@@ -1496,7 +1496,7 @@ msgstr "Au moins t'as essayé"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "À la fin du timer, <0>{actualTickPoints}</0> seront attribués au camp avec le plus de dégâts."
 
-#: src/components/_military/hit/HitButton.tsx:395
+#: src/components/_military/hit/HitButton.tsx:408
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1631,7 +1631,7 @@ msgstr "Bataille terminée"
 msgid "Battle Hero"
 msgstr "Héro de guerre"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Battle loot"
 msgstr ""
 
@@ -2566,7 +2566,7 @@ msgstr "Dégâts"
 msgid "Damages for Mu"
 msgstr "Dégâts pour l'UM"
 
-#: src/components/_military/hit/HitButton.tsx:349
+#: src/components/_military/hit/HitButton.tsx:362
 msgid "Damages you did for this side in this round"
 msgstr "Dégâts que tu as infligés pour ce camp dans ce round"
 
@@ -2683,7 +2683,7 @@ msgstr "Réduire"
 msgid "Decrease unrest"
 msgstr "Réduire le mécontentement"
 
-#: src/components/_military/hit/HitButton.tsx:398
+#: src/components/_military/hit/HitButton.tsx:411
 msgid "Defend"
 msgstr "Défendre"
 
@@ -2837,6 +2837,10 @@ msgstr "Démonter un équipement"
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "Fermer"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
+msgid "Distributed"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:10
 msgid "Do you even know what luck is?"
@@ -4090,7 +4094,7 @@ msgstr "Caisses obtenues"
 msgid "Looted money"
 msgstr "Argent obtenu"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:112
+#: src/components/_military/damageRanking/BattleLoot.tsx:119
 msgid "Loots"
 msgstr ""
 
@@ -4493,6 +4497,10 @@ msgstr "Trésorerie de l'UM"
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:233
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
 msgstr "Doit être au moins à {MIN_EFFECTIVE_RATE} de rémunération pour 1k dégâts"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:65
+msgid "My battle loot"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:247
 msgid "My Bot, Script, etc."
@@ -5866,7 +5874,7 @@ msgstr "Réinitialiser le nom d'utilisateur"
 msgid "Reshuffle in"
 msgstr "Redistribution dans"
 
-#: src/components/_military/hit/HitButton.tsx:393
+#: src/components/_military/hit/HitButton.tsx:406
 msgid "Resist"
 msgstr "Résister"
 
@@ -5979,7 +5987,7 @@ msgstr "Manche terminée"
 msgid "Round Hero"
 msgstr "Héros de la manche"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Round loot"
 msgstr ""
 
@@ -6417,7 +6425,7 @@ msgstr "Déclencher des élections présidentielles"
 msgid "Start revolution"
 msgstr "Lancer la révolution"
 
-#: src/components/_military/battle/BattleHeader.tsx:171
+#: src/components/_military/battle/BattleHeader.tsx:172
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6716,6 +6724,10 @@ msgstr "Cet équipement est vert et l'herbe aussi"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:62
 msgid "This feels good, huh?"
 msgstr "Ça fait du bien, hein ?"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:43
+msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
@@ -7349,7 +7361,7 @@ msgstr "Vice-président"
 msgid "View details"
 msgstr "Voir les détails"
 
-#: src/components/_military/battle/BattleHeader.tsx:102
+#: src/components/_military/battle/BattleHeader.tsx:103
 msgid "View on map"
 msgstr "Voir sur la carte"
 
@@ -8016,7 +8028,7 @@ msgstr "Tes missions quotidiennes ont été réinitialisées ! Complétez-les po
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "Ta limite d'XP quotidienne a été réinitialisée, tu peux maintenant gagner de l'XP et obtenir ta récompense quotidienne !"
 
-#: src/components/_military/hit/HitButton.tsx:348
+#: src/components/_military/hit/HitButton.tsx:361
 msgid "Your damages"
 msgstr "Tes dégâts"
 
@@ -8047,6 +8059,11 @@ msgstr "Tes informations ont été enregistrées."
 #: src/components/_other/tour/tuto.frontConfig.tsx:85
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ton inventaire contient tous tes objets. Voyons ce que tu as !"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:42
+#: src/components/_military/battle/LootSummaryCard.tsx:46
+msgid "Your loot"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:48
 msgid "Your luck is just warming up, don't quit"

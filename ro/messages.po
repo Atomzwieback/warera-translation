@@ -463,7 +463,7 @@ msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr ""
 
 #. placeholder {0}: roundId ? 'Round' : 'Battle'
-#: src/components/_military/damageRanking/BattleLoot.tsx:59
+#: src/components/_military/damageRanking/BattleLoot.tsx:58
 msgid "<0>{0} {roundNumber} loot pool</0>"
 msgstr ""
 
@@ -636,12 +636,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emoticoane</0> în chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:64
+#: src/components/_military/damageRanking/BattleLoot.tsx:63
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:77
+#: src/components/_military/damageRanking/BattleLoot.tsx:76
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
@@ -1122,7 +1122,7 @@ msgstr "Acceptă pace între țări"
 msgid "Accepted"
 msgstr "Acceptată"
 
-#: src/components/_military/battle/BattleHeader.tsx:95
+#: src/components/_military/battle/BattleHeader.tsx:96
 msgid "Access war"
 msgstr ""
 
@@ -1494,7 +1494,7 @@ msgstr "Măcar ai încercat"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "La sfârșitul timpului, partea cu cele mai multe daune cauzate va câștiga <0>{actualTickPoints}</0>."
 
-#: src/components/_military/hit/HitButton.tsx:395
+#: src/components/_military/hit/HitButton.tsx:408
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1629,7 +1629,7 @@ msgstr "Bătălia s-a încheiat"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Battle loot"
 msgstr ""
 
@@ -2564,7 +2564,7 @@ msgstr "Daune"
 msgid "Damages for Mu"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:349
+#: src/components/_military/hit/HitButton.tsx:362
 msgid "Damages you did for this side in this round"
 msgstr "Daune cauzade de tine, de această parte, în această rundă"
 
@@ -2681,7 +2681,7 @@ msgstr ""
 msgid "Decrease unrest"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:398
+#: src/components/_military/hit/HitButton.tsx:411
 msgid "Defend"
 msgstr "Apără"
 
@@ -2835,6 +2835,10 @@ msgstr "Dezmembrează obiect"
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "Închide"
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:99
+msgid "Distributed"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:10
 msgid "Do you even know what luck is?"
@@ -4088,7 +4092,7 @@ msgstr "Cutii găsite"
 msgid "Looted money"
 msgstr "Bani găsiți"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:112
+#: src/components/_military/damageRanking/BattleLoot.tsx:119
 msgid "Loots"
 msgstr ""
 
@@ -4490,6 +4494,10 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:233
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
+msgstr ""
+
+#: src/components/_military/battle/LootSummaryCard.tsx:65
+msgid "My battle loot"
 msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:247
@@ -5864,7 +5872,7 @@ msgstr "Resetează Nume"
 msgid "Reshuffle in"
 msgstr "Redistribuire în"
 
-#: src/components/_military/hit/HitButton.tsx:393
+#: src/components/_military/hit/HitButton.tsx:406
 msgid "Resist"
 msgstr "Rezistă"
 
@@ -5977,7 +5985,7 @@ msgstr "Runda s-a încheiat"
 msgid "Round Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Round loot"
 msgstr ""
 
@@ -6415,7 +6423,7 @@ msgstr "Declanșează alegeri prezidențiale"
 msgid "Start revolution"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:171
+#: src/components/_military/battle/BattleHeader.tsx:172
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6714,6 +6722,10 @@ msgstr "Acest obiect e verde ca iarba"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:62
 msgid "This feels good, huh?"
 msgstr "Se simte bine, nu?"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:43
+msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
@@ -7347,7 +7359,7 @@ msgstr "Vicepreședinte"
 msgid "View details"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:102
+#: src/components/_military/battle/BattleHeader.tsx:103
 msgid "View on map"
 msgstr ""
 
@@ -8014,7 +8026,7 @@ msgstr "Misiunile tale zilnice au fost resetate! Completează-le pentru a câșt
 msgid "Your daily XP limit has been reset, you can now gain XP and get your daily reward!"
 msgstr "Limita ta zilnică de XP a fost resetată, poți acum să câștigi XP și să primești recompensa zilnică!"
 
-#: src/components/_military/hit/HitButton.tsx:348
+#: src/components/_military/hit/HitButton.tsx:361
 msgid "Your damages"
 msgstr "Daunele tale"
 
@@ -8045,6 +8057,11 @@ msgstr "Informațiile au fost salvate."
 #: src/components/_other/tour/tuto.frontConfig.tsx:85
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Inventarul tău conține toate obiectele tale. Să vedem ce ai în el!"
+
+#: src/components/_military/battle/LootSummaryCard.tsx:42
+#: src/components/_military/battle/LootSummaryCard.tsx:46
+msgid "Your loot"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:48
 msgid "Your luck is just warming up, don't quit"
