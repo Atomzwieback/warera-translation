@@ -464,11 +464,6 @@ msgstr "<0/>Prioritás lejár <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr ""
 
-#. placeholder {0}: roundId ? 'Round' : 'Battle'
-#: src/components/_military/damageRanking/BattleLoot.tsx:58
-msgid "<0>{0} {roundNumber} loot pool</0>"
-msgstr ""
-
 #. placeholder {0}: companiesIds?.length ?? 0
 #. placeholder {1}: companiesLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:101
@@ -638,12 +633,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotok</0> a chatben"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:63
+#: src/components/_military/damageRanking/BattleLoot.tsx:55
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:76
+#: src/components/_military/damageRanking/BattleLoot.tsx:68
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
@@ -1631,8 +1626,12 @@ msgstr "Csata véget ért"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:61
+#: src/components/_military/damageRanking/BattleLoot.tsx:53
 msgid "Battle loot"
+msgstr ""
+
+#: src/components/_military/damageRanking/BattleLoot.tsx:83
+msgid "Battle loot pool"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:64
@@ -2838,7 +2837,7 @@ msgstr "Tárgy szétszerelése"
 msgid "Dismiss"
 msgstr "Bezár"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Distributed"
 msgstr ""
 
@@ -4094,7 +4093,7 @@ msgstr "Zsákmányolt ládák"
 msgid "Looted money"
 msgstr "Zsákmányolt pénz"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:119
+#: src/components/_military/damageRanking/BattleLoot.tsx:110
 msgid "Loots"
 msgstr ""
 
@@ -4498,7 +4497,7 @@ msgstr ""
 msgid "Must be at least {MIN_EFFECTIVE_RATE} money per 1k damage"
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:65
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "My battle loot"
 msgstr ""
 
@@ -5963,6 +5962,10 @@ msgstr ""
 msgid "Round {0}"
 msgstr ""
 
+#: src/components/_military/damageRanking/BattleLoot.tsx:83
+msgid "Round {roundNumber} loot pool"
+msgstr ""
+
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
@@ -5987,7 +5990,7 @@ msgstr "A kör véget ért"
 msgid "Round Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:61
+#: src/components/_military/damageRanking/BattleLoot.tsx:53
 msgid "Round loot"
 msgstr ""
 
